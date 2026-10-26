@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mat-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#0B0F19"/>
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141E33"/>
+      <stop offset="100%" stop-color="#0E1626"/>
+    </linearGradient>
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="680" rx="20" fill="url(#mat-bg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="48" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="900" fill="#F8FAFC" letter-spacing="-0.5">
+    THE 13 GRANDMASTER DEV MODULES
+  </text>
+  <text x="48" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94A3B8">
+    Production-grade engineering standards injected into your AI assistant session.
+  </text>
+
+  <!-- Quadrant 1: Architecture & Design -->
+  <g transform="translate(48, 116)" filter="url(#card-shadow)">
+    <rect width="536" height="250" rx="14" fill="url(#card-grad)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="24" y="20" width="140" height="24" rx="6" fill="#0284C7" fill-opacity="0.2"/>
+    <text x="32" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#38BDF8">SYSTEM DESIGN</text>
+    
+    <g transform="translate(24, 60)">
+      <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">01. HLD &amp; Architecture</text>
+      <text x="0" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Living Mermaid sequence diagrams, failure domains, ADR records.</text>
+
+      <text x="0" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">02. LLD &amp; Clean Craftsmanship</text>
+      <text x="0" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">3-tier boundary (Controller ➔ Service ➔ Repository), zero 'any', Zod.</text>
+
+      <text x="0" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">03. UI/UX Design System &amp; Tokens</text>
+      <text x="0" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">4px/8px spacing scales, high-contrast palette, WCAG AA compliance.</text>
+
+      <text x="0" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">10. Adaptive &amp; Fluid UI</text>
+      <text x="0" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Container queries (@container), fluid clamp() typography, dynamic 100dvh.</text>
+    </g>
+  </g>
+
+  <!-- Quadrant 2: Security & Fault Tolerance -->
+  <g transform="translate(616, 116)" filter="url(#card-shadow)">
+    <rect width="536" height="250" rx="14" fill="url(#card-grad)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="24" y="20" width="160" height="24" rx="6" fill="#DC2626" fill-opacity="0.2"/>
+    <text x="32" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#F87171">SECURITY &amp; RESILIENCE</text>
+
+    <g transform="translate(24, 60)">
+      <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">04. DevSecOps &amp; Zero-Trust</text>
+      <text x="0" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">OWASP Top 10 shields, parameterized queries, zero hardcoded secrets.</text>
+
+      <text x="0" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">05. Deep Verification &amp; Edge-Cases</text>
+      <text x="0" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Unit/integration/E2E pyramid, concurrency races, boundary null checks.</text>
+
+      <text x="0" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">13. Rate Limiting &amp; Circuit Breakers</text>
+      <text x="0" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Sliding window rate limiters, 3-state Circuit Breaker, full-jitter retries.</text>
+    </g>
+  </g>
+
+  <!-- Quadrant 3: Web Apps & Reverse Engineering -->
+  <g transform="translate(48, 396)" filter="url(#card-shadow)">
+    <rect width="536" height="240" rx="14" fill="url(#card-grad)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="24" y="20" width="160" height="24" rx="6" fill="#7C3AED" fill-opacity="0.2"/>
+    <text x="32" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#A78BFA">WEB APPS &amp; REA</text>
+
+    <g transform="translate(24, 60)">
+      <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">08. REA (Reverse Engineer Anything)</text>
+      <text x="0" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Inspects HAR traces &amp; minified JS bundles to synthesize clean SDKs.</text>
+
+      <text x="0" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">09. PWA &amp; Offline Engine</text>
+      <text x="0" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Web app manifest, SWR caching strategies, background sync replay.</text>
+
+      <text x="0" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">12. Smooth Loading &amp; Zero CLS</text>
+      <text x="0" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Guaranteed CLS &lt; 0.05, shimmer skeletons, optimistic UI mutations.</text>
+    </g>
+  </g>
+
+  <!-- Quadrant 4: SRE, Flags & Token Economics -->
+  <g transform="translate(616, 396)" filter="url(#card-shadow)">
+    <rect width="536" height="240" rx="14" fill="url(#card-grad)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="24" y="20" width="160" height="24" rx="6" fill="#059669" fill-opacity="0.2"/>
+    <text x="32" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#34D399">DEVOPS &amp; TOKEN OPS</text>
+
+    <g transform="translate(24, 60)">
+      <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">06. DevOps &amp; SRE Observability</text>
+      <text x="0" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Multi-stage Dockerfiles, non-root users, /healthz, structured JSON logs.</text>
+
+      <text x="0" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">11. Feature Flags &amp; Canary Rollout</text>
+      <text x="0" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Decouple deploy from release; 5% hashed canaries, instant kill-switches.</text>
+
+      <text x="0" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#E2E8F0">07. Token-Optimizer Dispatcher</text>
+      <text x="0" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">~150 tokens base router, saves ~70% context tokens with surgical diffs.</text>
+    </g>
+  </g>
+</svg>

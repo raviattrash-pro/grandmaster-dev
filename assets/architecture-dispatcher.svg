@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="arch-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#080C14"/>
+    </linearGradient>
+    <linearGradient id="box-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="glow-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="360" rx="16" fill="url(#arch-bg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="40" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#F8FAFC">
+    TWO-TIER DYNAMIC CONTEXT ENGINE
+  </text>
+  <text x="40" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94A3B8">
+    How Grandmaster Dev cuts token consumption by ~70% while maintaining Staff-level engineering discipline.
+  </text>
+
+  <!-- Step 1: User Request -->
+  <g transform="translate(40, 100)">
+    <rect width="260" height="200" rx="12" fill="url(#box-blue)" stroke="#334155" stroke-width="1"/>
+    <text x="20" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#38BDF8">PHASE 1: PROMPT ARRIVAL</text>
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#F8FAFC">User Prompt:</text>
+    <rect x="20" y="82" width="220" height="60" rx="8" fill="#030712" stroke="#1E293B"/>
+    <text x="32" y="106" font-family="'JetBrains Mono', monospace" font-size="12" fill="#E2E8F0">"Create transfer API</text>
+    <text x="32" y="126" font-family="'JetBrains Mono', monospace" font-size="12" fill="#E2E8F0">with rate limits"</text>
+    <text x="20" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">Context load: Zero bloat</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M 315 200 L 375 200" stroke="url(#glow-line)" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <circle cx="345" cy="200" r="4" fill="#38BDF8"/>
+
+  <!-- Step 2: Micro-Router -->
+  <g transform="translate(390, 100)">
+    <rect width="300" height="200" rx="12" fill="#0B1528" stroke="#38BDF8" stroke-width="1.5"/>
+    <rect x="20" y="18" width="160" height="24" rx="6" fill="#0284C7" fill-opacity="0.2"/>
+    <text x="28" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#38BDF8">TIER 1: MICRO-ROUTER</text>
+    <text x="20" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#F8FAFC">~150 Tokens Base</text>
+    <text x="20" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#94A3B8">Lightweight Intent Classifier.</text>
+    <text x="20" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#94A3B8">Evaluates task requirements &amp;</text>
+    <text x="20" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#94A3B8">identifies needed modules.</text>
+
+    <rect x="20" y="152" width="260" height="32" rx="6" fill="#0F172A" stroke="#1E293B"/>
+    <text x="30" y="173" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#34D399">✓ 95% Idle Context Saved</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M 705 200 L 765 200" stroke="url(#glow-line)" stroke-width="2.5"/>
+  <circle cx="735" cy="200" r="4" fill="#818CF8"/>
+
+  <!-- Step 3: Lazy-Loaded Modules -->
+  <g transform="translate(780, 100)">
+    <rect width="280" height="200" rx="12" fill="url(#box-blue)" stroke="#334155" stroke-width="1"/>
+    <text x="20" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#A78BFA">TIER 2: ON-DEMAND LOAD</text>
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#F8FAFC">Selective Activation:</text>
+
+    <!-- Activated chip -->
+    <rect x="20" y="84" width="240" height="32" rx="6" fill="#1E1B4B" stroke="#6366F1"/>
+    <text x="32" y="105" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#A5B4FC">✓ 04-devsecops-zerotrust</text>
+
+    <rect x="20" y="124" width="240" height="32" rx="6" fill="#064E3B" stroke="#059669"/>
+    <text x="32" y="145" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#6EE7B7">✓ 13-rate-limiting-circuit</text>
+
+    <text x="20" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Idle modules stay unloaded</text>
+  </g>
+</svg>

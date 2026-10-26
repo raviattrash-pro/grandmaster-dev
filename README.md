@@ -1,5 +1,9 @@
 <div align="center">
 
+<p align="center">
+  <img src="assets/hero-banner.svg" alt="Grandmaster Dev Hero Banner" width="100%" />
+</p>
+
 # ⚡ GRANDMASTER DEV KERNEL
 
 ### *The 40-Year Veteran Staff Architect, Principal Full-Stack Engineer & DevSecOps Kernel for AI Coding Assistants*
@@ -9,8 +13,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/raviattrash-pro/grandmaster-dev?style=social)](https://github.com/raviattrash-pro/grandmaster-dev)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/raviattrash-pro/grandmaster-dev/pulls)
-[![Token Efficiency](https://img.shields.io/badge/Context%20Savings-~70%25-orange.svg)](#-how-it-works-the-token-budget-engine)
-[![Supports](https://img.shields.io/badge/Supports-Cursor%20%7C%20Claude%20Code%20%7C%20Antigravity%20%7C%20Windsurf-purple.svg)](#-quick-start)
+[![Token Efficiency](https://img.shields.io/badge/Context%20Savings-~70%25-orange.svg)](#️-how-does-it-work-the-architecture)
+[![Supports](https://img.shields.io/badge/Supports-Cursor%20%7C%20Claude%20Code%20%7C%20Antigravity%20%7C%20Windsurf-purple.svg)](#-quick-start-1-second-install)
 
 ---
 
@@ -23,10 +27,11 @@
 4. [🚀 Quick Start (1-Second Install)](#-quick-start-1-second-install)
 5. [📚 The 13 Grandmaster Modules (Deep Dive)](#-the-13-grandmaster-modules-deep-dive)
 6. [🥊 Concrete Before vs. After Code Comparison](#-concrete-before-vs-after-code-comparison)
-7. [🛠️ Platform Integration Guides](#️-platform-integration-guides)
-8. [📊 Token Economics & Context Benchmarks](#-token-economics--context-benchmarks)
-9. [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
-10. [🤝 Contributing & License](#-contributing--license)
+7. [🖼️ Social Card & Media Kit](#️-social-card--media-kit)
+8. [🛠️ Platform Integration Guides](#️-platform-integration-guides)
+9. [📊 Token Economics & Context Benchmarks](#-token-economics--context-benchmarks)
+10. [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
+11. [🤝 Contributing & License](#-contributing--license)
 
 ---
 
@@ -67,23 +72,9 @@ All of this is delivered through a **Two-Tier Dynamic Dispatcher** that uses **~
 
 ## ⚙️ How Does It Work? (The Architecture)
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                   THE GRANDMASTER DYNAMIC DISPATCHER                   │
-│                       (Base Context: ~150 Tokens)                      │
-└───────────────────────────────────┬────────────────────────────────────┘
-                                    │ Evaluates prompt intent
-                                    ▼
-┌────────────────────────────────────────────────────────────────────────┐
-│                      ON-DEMAND MODULAR EXECUTION                       │
-├───────────────────┬───────────────────┬────────────────────────────────┤
-│ 01. HLD & ARCH    │ 02. LLD & CODE    │ 03. UI/UX DESIGN SYSTEM        │
-│ 04. DEVSECOPS SEC │ 05. DEEP TESTING  │ 06. DEVOPS & SRE OBSERVABILITY │
-│ 07. TOKEN OPTIM   │ 08. REA INSPECT   │ 09. PWA OFFLINE ENGINE         │
-│ 10. ADAPTIVE UI   │ 11. CANARY FLAGS  │ 12. SMOOTH PERF & ZERO CLS     │
-│ 13. RATE LIMITING & CIRCUIT BREAKERS                                   │
-└────────────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="assets/architecture-dispatcher.svg" alt="Two-Tier Dynamic Context Engine" width="100%" />
+</p>
 
 Grandmaster operates on a **Two-Tier Context Engine**:
 1. **Tier 1 (The Micro-Router):** On startup, Grandmaster injects an ultra-compact ~150-token routing table. This leaves 99% of your model's context window open for actual project code.
@@ -121,6 +112,10 @@ Clone or download this repo and copy the [`.skills/grandmaster/`](file:///C:/Use
 
 ## 📚 The 13 Grandmaster Modules (Deep Dive)
 
+<p align="center">
+  <img src="assets/feature-matrix.svg" alt="The 13 Grandmaster Dev Modules Matrix" width="100%" />
+</p>
+
 | # | Module | Core Capability | Invariant Enforced |
 | :--- | :--- | :--- | :--- |
 | **01** | [`01-hld-architecture.md`](file:///C:/Users/ASUS/.gemini/antigravity/scratch/grandmaster-dev/.skills/grandmaster/modules/01-hld-architecture.md) | High-Level Design & System Boundaries | Living Mermaid sequence diagrams; ADR records; async job isolation. |
@@ -140,6 +135,10 @@ Clone or download this repo and copy the [`.skills/grandmaster/`](file:///C:/Use
 ---
 
 ## 🥊 Concrete Before vs. After Code Comparison
+
+<p align="center">
+  <img src="assets/before-after-card.svg" alt="Code Quality Benchmark: Junior vs Grandmaster Staff" width="100%" />
+</p>
 
 ### Scenario: Creating an API Endpoint to Transfer User Funds
 
@@ -203,6 +202,23 @@ export async function handleTransfer(req: Request, userId: string): Promise<ApiR
   });
 }
 ```
+
+---
+
+## 🖼️ Social Card & Media Kit
+
+For sharing on Twitter/X, LinkedIn, Discord, and GitHub, the high-resolution social preview banner is stored at:
+
+<p align="center">
+  <img src="assets/social-card.png" alt="Grandmaster Dev Social Card" width="90%" />
+</p>
+
+* **Path:** [`assets/social-card.png`](file:///assets/social-card.png)
+* **Dimensions:** 1280 x 640 px (2:1 aspect ratio)
+* **GitHub Social Preview Setup:**
+  1. Open your repository on GitHub: `https://github.com/raviattrash-pro/grandmaster-dev`
+  2. Go to **Settings** ➔ **General** ➔ Scroll to **Social preview**.
+  3. Click **Edit** ➔ **Upload an image** ➔ Select `assets/social-card.png`.
 
 ---
 
