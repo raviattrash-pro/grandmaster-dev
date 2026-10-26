@@ -6,6 +6,9 @@
   "bin": {
     "grandmaster-dev": "./bin/cli.js"
   },
+  "scripts": {
+    "test": "node --test test/cli.test.js"
+  },
   "keywords": [
     "ai",
     "cursor",
