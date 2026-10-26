@@ -6,6 +6,17 @@
   "bin": {
     "grandmaster-dev": "./bin/cli.js"
   },
+  "files": [
+    "bin",
+    ".skills",
+    ".cursorrules",
+    ".windsurfrules",
+    "assets",
+    "install.sh",
+    "install.ps1",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "node --test test/cli.test.js"
   },
