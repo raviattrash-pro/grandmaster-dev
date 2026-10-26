@@ -4,7 +4,7 @@ set -e
 # Grandmaster Dev Kernel Installer (macOS/Linux/WSL)
 echo "⚡ Installing Grandmaster Dev Kernel..."
 
-REPO_URL="https://raw.githubusercontent.com/your-username/grandmaster-dev/main"
+REPO_URL="https://raw.githubusercontent.com/raviattrash-pro/grandmaster-dev/main"
 
 # Create directories
 mkdir -p .skills/grandmaster/modules

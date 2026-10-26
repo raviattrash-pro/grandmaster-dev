@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 
 Write-Host "⚡ Installing Grandmaster Dev Kernel..." -ForegroundColor Cyan
 
-$REPO_URL = "https://raw.githubusercontent.com/your-username/grandmaster-dev/main"
+$REPO_URL = "https://raw.githubusercontent.com/raviattrash-pro/grandmaster-dev/main"
 
 # Create directories
 New-Item -ItemType Directory -Force -Path ".skills\grandmaster\modules" | Out-Null

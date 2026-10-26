@@ -18,11 +18,11 @@
     "security",
     "token-efficient"
   ],
-  "author": "Grandmaster Dev Team",
+  "author": "Ravi Attrash (raviattrash-pro)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/grandmaster-dev.git"
+    "url": "https://github.com/raviattrash-pro/grandmaster-dev.git"
   },
   "engines": {
     "node": ">=16.0.0"
