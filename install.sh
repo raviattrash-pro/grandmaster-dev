@@ -14,7 +14,7 @@ mkdir -p .cursor/rules
 curl -sSL "$REPO_URL/.skills/grandmaster/SKILL.md" -o .skills/grandmaster/SKILL.md
 
 # Download Modules
-for module in 01-hld-architecture 02-lld-craftsmanship 03-ui-ux-design-system 04-devsecops-zerotrust 05-thorough-testing 06-devops-sre 07-token-optimizer; do
+for module in 01-hld-architecture 02-lld-craftsmanship 03-ui-ux-design-system 04-devsecops-zerotrust 05-thorough-testing 06-devops-sre 07-token-optimizer 08-rea-reverse-engineer 09-pwa-offline-engine 10-adaptive-responsive-ui 11-feature-flags-canary 12-smooth-loading-perf 13-rate-limiting-circuit-breaker; do
   curl -sSL "$REPO_URL/.skills/grandmaster/modules/${module}.md" -o ".skills/grandmaster/modules/${module}.md"
 done
 

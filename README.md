@@ -42,9 +42,19 @@ Default AI models often behave like junior interns who learned to code from a 10
 │ • OWASP Top 10    │ • Unit & edge-case│ • Multi-stage Docker           │
 │ • Secret shielding│ • Integration E2E │ • Health checks & CI/CD        │
 │ • Auth/RBAC rules │ • Concurrency test│ • Structured JSON telemetry    │
+├───────────────────┼───────────────────┼────────────────────────────────┤
+│ 7. REA ENGINE     │ 8. PWA & OFFLINE  │ 9. ADAPTIVE & RESPONSIVE UI    │
+│ • Reverse engineer│ • Service workers │ • Container queries            │
+│ • HAR/AST unpack  │ • SWR cache tiers │ • Fluid clamp() typography     │
+│ • OpenAPI synth   │ • Background sync │ • Dynamic 100dvh & touch a11y  │
+├───────────────────┼───────────────────┼────────────────────────────────┤
+│ 10. CANARY FLAGS  │ 11. SMOOTH PERF   │ 12. RATE LIMIT & RESILIENCE    │
+│ • Instant rollback│ • Zero CLS (<0.05)│ • Sliding window limiter       │
+│ • 5% canary tests │ • Shimmer skeleton│ • Circuit breaker automata     │
+│ • Kill-switches   │ • Streaming SSR   │ • Full-jitter retry backoff    │
 ├───────────────────┴───────────────────┴────────────────────────────────┤
-│ 7. THE TOKEN-OPTIMIZED DYNAMIC DISPATCHER                              │
-│ • Compresses base prompt to ~150 tokens (70% savings)                  │
+│ 13. TOKEN-OPTIMIZED DYNAMIC DISPATCHER                                 │
+│ • Compresses base prompt to ~150 tokens (70% context savings)          │
 │ • Lazy-loads deep architectural modules only during relevant phases    │
 └────────────────────────────────────────────────────────────────────────┘
 ```
@@ -116,13 +126,19 @@ grandmaster-dev/
 │   └── grandmaster/
 │       ├── SKILL.md            # Master brain & dynamic micro-dispatcher
 │       └── modules/
-│           ├── 01-hld-architecture.md    # System design, ADRs & Mermaid diagrams
-│           ├── 02-lld-craftsmanship.md   # Clean code, 3-tier boundary & strict types
-│           ├── 03-ui-ux-design-system.md # Spacing tokens, a11y & responsive layouts
-│           ├── 04-devsecops-zerotrust.md # OWASP Top 10 & secret redaction
-│           ├── 05-thorough-testing.md    # Boundary testing, race conditions & mocks
-│           ├── 06-devops-sre.md          # Multi-stage Docker & CI/CD workflows
-│           └── 07-token-optimizer.md     # Surgical diffs & token efficiency
+│           ├── 01-hld-architecture.md             # System design, ADRs & Mermaid diagrams
+│           ├── 02-lld-craftsmanship.md            # Clean code, 3-tier boundary & strict types
+│           ├── 03-ui-ux-design-system.md          # Spacing tokens, a11y & responsive layouts
+│           ├── 04-devsecops-zerotrust.md          # OWASP Top 10 & secret redaction
+│           ├── 05-thorough-testing.md             # Boundary testing, race conditions & mocks
+│           ├── 06-devops-sre.md                   # Multi-stage Docker & CI/CD workflows
+│           ├── 07-token-optimizer.md              # Surgical diffs & token efficiency
+│           ├── 08-rea-reverse-engineer.md         # REA protocol: bundle & network reverse-engineering
+│           ├── 09-pwa-offline-engine.md           # PWA manifests, SWR caching & background sync
+│           ├── 10-adaptive-responsive-ui.md       # Container queries, clamp() & dynamic dvh
+│           ├── 11-feature-flags-canary.md         # Kill-switches, 5% canaries & instant rollback
+│           ├── 12-smooth-loading-perf.md          # Zero CLS (< 0.05), skeletons & streaming
+│           └── 13-rate-limiting-circuit-breaker.md# Sliding window limits & circuit breakers
 ├── .cursorrules                # Standalone Cursor rules
 ├── .windsurfrules              # Standalone Windsurf rules
 ├── install.sh                  # Bash installer
