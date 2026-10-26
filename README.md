@@ -10,6 +10,8 @@
 
 **Equip Cursor, Claude Code, Antigravity, and Windsurf with drop-in senior engineering discipline.**
 
+[![npm version](https://img.shields.io/npm/v/grandmaster-dev.svg?style=flat&color=CB3837&logo=npm)](https://www.npmjs.com/package/grandmaster-dev)
+[![npm downloads](https://img.shields.io/npm/dm/grandmaster-dev.svg?style=flat&color=blue)](https://www.npmjs.com/package/grandmaster-dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/raviattrash-pro/grandmaster-dev?style=social)](https://github.com/raviattrash-pro/grandmaster-dev)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/raviattrash-pro/grandmaster-dev/pulls)
